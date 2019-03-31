@@ -10,13 +10,13 @@ public class Main {
         System.out.println("What's your name?" );
         Scanner input = new Scanner(System.in);
         do{
-            name = input.next();
-            if( name.equals("Bob") || name.equals("Alice")){
+            name = input.next().toLowerCase();
+            if( name.equals("bob") || name.equals("alice") ){
                 System.out.print("\nHello " + name + "!");
                 break;
             }
             else{
-                System.out.print("You are neither a Bob or an Alice, try again!\n");
+                System.out.print("You are neither a Bob nor an Alice, try again!\n");
             }
         } while( true );
     }
