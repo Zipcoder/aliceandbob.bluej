@@ -16,7 +16,15 @@ public class AliceAndBobEngine
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
-    
-        return result;
+    String outputMessage = "";
+    if (input == "Alice" || input == "Bob")
+    {
+        outputMessage = "Hello " + input;
+    }
+    else
+    {
+        outputMessage = "I DON'T KNOW YOU, YOU ARE SCARY";
+    }
+        return outputMessage;
     }
 }
