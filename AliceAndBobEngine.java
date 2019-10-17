@@ -2,8 +2,8 @@
 /**
  * Write a description of class AliceAndBobEngine here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Valentin G)
+ * @version (October 16,2019)
  */
 public class AliceAndBobEngine
 {
@@ -16,7 +16,18 @@ public class AliceAndBobEngine
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
-    
-        return result;
+        if (input.equals("Alice"))
+        {
+            this.result = "Hello " + input;
+        } else if (input.equals("Bob")) 
+        {
+            this.result = "Hello " + input;
+        }else
+        {
+            this.result = "I DON'T KNOW YOU, YOU ARE SCARY";            
+        }    
+            
+        
+        return this.result;
     }
 }
