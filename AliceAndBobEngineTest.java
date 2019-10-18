@@ -8,8 +8,8 @@ import org.junit.Test;
 /**
  * The test class AliceAndBobEngineTest.
  *
- * @author  (your name)
- * @version (a version number or a date)
+ * Michael Doll
+ * 10.16.19
  */
 public class AliceAndBobEngineTest
 {
