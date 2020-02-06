@@ -11,12 +11,25 @@ public class AliceAndBobEngine
     
     AliceAndBobEngine(){
         result = "";
+        
+        
+        
     }
 
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
     
+        if (input.equals("Alice")) {
+            return "Hello Alice";}
+        else if (input.equals("Bob")){
+            return "Hello Bob";}
+        else if (!input.equals("Alice")){
+            return "I DON'T KNOW YOU, YOU ARE SCARY";}
+        else if (!input.equals("Bob")){
+            return "I DON'T KNOW YOU, YOU ARE SCARY";}
+          
+        
         return result;
     }
 }
