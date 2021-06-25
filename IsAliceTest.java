@@ -15,7 +15,6 @@ public class IsAliceTest {
         // when
         Boolean actual = evaluator.isAlice(input);
 
-
         // then
         Assert.assertEquals(expected, actual);
     }
