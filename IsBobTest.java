@@ -15,7 +15,6 @@ public class IsBobTest {
         // when
         Boolean actual = evaluator.isBob(input);
 
-
         // then
         Assert.assertEquals(expected, actual);
     }
