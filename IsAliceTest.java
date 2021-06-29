@@ -27,9 +27,8 @@ public class IsAliceTest {
 
     @Test
     public void testIsAliceFalse() {
-        for(String word : "The Quick Brown Fox Jumps Over The Lazy Dog".split(" ")) {
-            testIsAlice(word, false);
-        }
+        for(String word : "The Quick Brown Fox Jumps Over The Lazy Dog".split(" "))
+        { testIsAlice(word, false);}
     }
 
 }
