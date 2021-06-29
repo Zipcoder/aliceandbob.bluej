@@ -16,7 +16,7 @@ public class GetGreetingTest {
         String actual = evaluator.getGreeting(input);
 
         // then
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual, expected);
     }
 
     @Test
@@ -36,7 +36,7 @@ public class GetGreetingTest {
     @Test
     public void testGetGreetingStranger() {
         String[] strangerNames = "Leon Dolio Kris Nobles Desa Lossie Nancy".split(" ");
-        for(String strangerName : strangerNames) {
+        for (String strangerName : strangerNames) {
             String expected = "Begone, " + strangerName + "! You're a stranger!";
             testGetGreeting(strangerName, expected);
         }
