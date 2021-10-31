@@ -10,7 +10,16 @@ public class AliceAndBobEngine {
      * @return `true` if `input` is "Alice"
      */
     public Boolean isAlice(String input) {
-        return null;
+        String name = "Alice";
+        boolean rightName;
+        
+        if (input.equals(name)) {
+            rightName = true;
+        } else {
+            rightName = false;
+        }
+        
+        return rightName;
     }
 
     /**
@@ -19,7 +28,16 @@ public class AliceAndBobEngine {
      * @return `true` if `input` is "Bob"
      */
     public Boolean isBob(String input) {
-        return null;
+        String name = "Bob";
+        boolean rightName;
+        
+        if (input.equals(name)) {
+            rightName = true;
+        } else {
+            rightName = false;
+        }
+        
+        return rightName;
     }
 
     /**
@@ -28,7 +46,17 @@ public class AliceAndBobEngine {
      * @return `true` if `input` is "Alice" or "Bob"
      */
     public Boolean isAliceOrBob(String input) {
-        return null;
+        String alice = "Alice";
+        String bob = "Bob";
+        boolean rightName;
+        
+        if (input.equals(alice) || input.equals(bob)) {
+            rightName = true;
+        } else {
+            rightName = false;
+        }
+        
+        return rightName;
     }
 
     /**
@@ -42,6 +70,18 @@ public class AliceAndBobEngine {
      * @return respective String value
      */
     public String getGreeting(String input) {
-        return null;
+        String alice = "Alice";
+        String bob = "Bob";
+        String greeting = null;
+        
+        if (input.equals(alice)) {
+            greeting = "Hello, " + input + "!";
+        } else if (input.equals(bob)) {
+            greeting = "Hello, " + input + "!";
+        } else {
+            greeting = "Begone, " + input + "! You're a stranger!";
+        }
+        
+        return greeting;
     }
 }
