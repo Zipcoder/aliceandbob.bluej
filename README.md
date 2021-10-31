@@ -3,7 +3,7 @@
 * **Objective**
     * To create a program which greets users whose names are, `Alice` or `Bob`.
 * **Purpose**
-    * To gain familiarity the conditional operators.
+    * To gain familiarity with the conditional operators.
 * **Description**
     * This application has been provisioned with JUnit tests and boilerplate classes, and method stubs.
     * Complete the method-stub implementation to achieve 100% test-pass rate.
